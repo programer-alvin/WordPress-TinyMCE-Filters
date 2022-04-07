@@ -16,7 +16,7 @@ add_filter( 'mce_buttons_2', 'myplugin_tinymce_buttons' );
 
 function myplugin_tinymce_buttons( $buttons ) {
 	  // Add style selector to the beginning of the toolbar
-	  array_unshift( $buttons, 'styleselectf' );
+	  array_unshift( $buttons, 'styleselect' );
 
 	  return $buttons;
 }
